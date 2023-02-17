@@ -4,7 +4,7 @@
 
 解压后打开 FarmTogetherUnlock.exe
 
-程序会自动检测 Steam 所在路径，若检测失败，需手动填写 Steam根路径，最后不要带反斜杠
+程序会自动检测 Steam 所在路径，若检测失败，需手动填写 Steam 根路径，最后不要带反斜杠
 
 
 
