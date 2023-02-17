@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="failed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\failed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="passed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pending" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rewards" xml:space="preserve">
+    <value>{"Rewards":[{"id":"TreeChestnutTree"},{"id":"TreeFloweringCherry"},{"id":"TreeHalloweenTree"},{"id":"TreePistachio"},{"id":"TreeXmasTree"},{"id":"AnimalHorseMagicArcane"},{"id":"AnimalHorseMagicFire"},{"id":"AnimalHorseMagicIce"},{"id":"AnimalRabbitEaster"},{"id":"AnimalUnicorn"},{"id":"PondBass"},{"id":"PondNarwhal"},{"id":"PondNeonTetra"},{"id":"BuildingPotOfGold"},{"id":"DecorationBeachHut"},{"id":"DecorationBeachHutB"},{"id":"DecorationBeachHutC"},{"id":"DecorationBenchAquatic"},{"id":"DecorationBenchLovers"},{"id":"DecorationBigWaterFloat"},{"id":"DecorationBonfireLarge"},{"id":"DecorationBuoyFlag"},{"id":"DecorationBuoySign"},{"id":"DecorationCampingTent"},{"id":"DecorationEarthTree"},{"id":"DecorationEasterBunny"},{"id":"DecorationEasterEggs"},{"id":"DecorationFireworksBox"},{"id":"DecorationGiftSleigh"},{"id":"DecorationIgloo"},{"id":"DecorationIlluminatedSign"},{"id":"DecorationJacuzzi"},{"id":"DecorationKissingBooth"},{"id":"DecorationMusicStage"},{"id":"DecorationSantasReindeerBlue"},{"id":"DecorationSantasReindeerYellow"},{"id":"DecorationSantasRudolfBlue"},{"id":"DecorationSantasRudolfYellow"},{"id":"DecorationSingingBowl"},{"id":"DecorationSnowman"},{"id":"DecorationSteampunkClock"},{"id":"DecorationSubmarine"},{"id":"DecorationSunStele"},{"id":"DecorationSurfBoard"},{"id":"DecorationTaichiMats"},{"id":"DecorationTelescope"},{"id":"DecorationWroughtIronChairs"},{"id":"DecorationYew"},{"id":"FenceAnniversaryFence"},{"id":"FenceAquaticArch"},{"id":"FenceAquaticFence"},{"id":"FenceAquaticLow"},{"id":"FenceBoneArch"},{"id":"FenceCelticDolmen"},{"id":"FenceCelticMenhir"},{"id":"FenceCenser"},{"id":"FenceColoredGardenLights"},{"id":"FenceEasterLow"},{"id":"FenceFlyingCandles"},{"id":"FenceGlowingFungi"},{"id":"FenceHalloweenLow"},{"id":"FenceHanamiLights"},{"id":"FenceHanamiLow"},{"id":"FenceHurdleFence"},{"id":"FenceIceArch"},{"id":"FenceIceWall"},{"id":"FenceKiteButterflyA"},{"id":"FenceKiteButterflyB"},{"id":"FenceKoinobori"},{"id":"FenceLifePreservers"},{"id":"FenceSaintPatricksFence"},{"id":"FenceSteampunkFence"},{"id":"FenceValentinesBalloonsPink"},{"id":"FenceValentinesBalloonsPurple"},{"id":"FenceXmasArch"},{"id":"FenceXmasFence"},{"id":"FenceXmasFenceDoor"},{"id":"RoadBrickChoco"},{"id":"RoadEasterRoad"},{"id":"RoadGemPath"},{"id":"RoadHotCoal"},{"id":"RoadPergolaValentines"},{"id":"RoadRunningTrack"},{"id":"RoadXylophonePath"},{"id":"FlowerDandelion"},{"id":"FlowerFoxglovePink"},{"id":"FlowerFoxglovePurple"},{"id":"FlowerFoxgloveYellow"},{"id":"FlowerIris"},{"id":"FlowerRafflesia"},{"id":"AccessoryClockSolstice"},{"id":"AccessoryDrumkit"},{"id":"AccessoryPlushToyBearPanda"},{"id":"AccessoryPlushToyBearPolar"},{"id":"AccessoryPlushToyBearValentines"},{"id":"ApplianceRoomba"},{"id":"DecorationCarpetMoon"},{"id":"DecorationCarpetMoonBig"},{"id":"DecorationCarpetSakura"},{"id":"DecorationCarpetSakuraBig"},{"id":"DecorationCarpetStar"},{"id":"DecorationCarpetStarBig"},{"id":"DecorationCarpetSun"},{"id":"DecorationCarpetSunBig"},{"id":"DecorationCeilingFan"},{"id":"DecorationColoredSpotlights"},{"id":"DecorationFireplaceXmas"},{"id":"DecorationWindowTallLightsBlue"},{"id":"DecorationWindowTallLightsGreen"},{"id":"DecorationWindowTallLightsPink"},{"id":"DecorationWindowTallLightsYellow"},{"id":"Dreamcatcher"},{"id":"GothicBed"},{"id":"MassageChair"},{"id":"MoonLamp"},{"id":"AccessoryCake"},{"id":"AccessoryNewtonsCradle"},{"id":"AccessoryPlushDino"},{"id":"AccessoryScentedCandles"},{"id":"AppliancePlanetarium"},{"id":"BodyBoyCasualHalloween"},{"id":"BodyBoyCasualSolstice"},{"id":"BodyBoyCowboyCountry"},{"id":"BodyBoyFiremanSanta"},{"id":"BodyBoyFisherman"},{"id":"BodyBoyFishermanB"},{"id":"BodyBoyJerseyLargoReno"},{"id":"BodyBoySuitPatricks"},{"id":"BodyBoyTennisPlayer"},{"id":"BodyBoyTennisPlayerB"},{"id":"BodyBoyTennisPlayerC"},{"id":"BodyGirlCasualHalloween"},{"id":"BodyGirlCasualSolstice"},{"id":"BodyGirlCowboyCountry"},{"id":"BodyGirlFiremanSanta"},{"id":"BodyGirlFisherman"},{"id":"BodyGirlFishermanB"},{"id":"BodyGirlJerseyLargoReno"},{"id":"BodyGirlSkirtPatricks"},{"id":"BodyGirlSkirtSanta"},{"id":"BodyGirlSuitPatricks"},{"id":"BodyGirlTennisPlayer"},{"id":"BodyGirlTennisPlayerB"},{"id":"BodyGirlTennisPlayerC"},{"id":"HeadHeadBoySaintPatrick"},{"id":"HeadHeadGirlSaintPatrick"},{"id":"HairHairBoyCowboyCountry"},{"id":"HairHairBoyCrown"},{"id":"HairHairBoyEaster"},{"id":"HairHairBoyEasterB"},{"id":"HairHairBoyExplorer"},{"id":"HairHairBoyFisherman"},{"id":"HairHairBoyFishermanB"},{"id":"HairHairBoyFootball"},{"id":"HairHairBoyFootballB"},{"id":"HairHairBoyFootballC"},{"id":"HairHairBoyHanami"},{"id":"HairHairBoyHorns"},{"id":"HairHairBoySanValentin"},{"id":"HairHairBoySolsticio"},{"id":"HairHairBoySteampunk"},{"id":"HairHairBoyStPatricks"},{"id":"HairHairBoyWitch"},{"id":"HairHairBoyWitchB"},{"id":"HairHairBoyXmas"},{"id":"HairHairBoyXmasGreen"},{"id":"HairHairGirlCowboyCountry"},{"id":"HairHairGirlCrown"},{"id":"HairHairGirlEaster"},{"id":"HairHairGirlEasterB"},{"id":"HairHairGirlExplorer"},{"id":"HairHairGirlFisherman"},{"id":"HairHairGirlFishermanB"},{"id":"HairHairGirlFootball"},{"id":"HairHairGirlFootballB"},{"id":"HairHairGirlFootballC"},{"id":"HairHairGirlHanami"},{"id":"HairHairGirlHorns"},{"id":"HairHairGirlSanValentin"},{"id":"HairHairGirlSolsticio"},{"id":"HairHairGirlSteampunk"},{"id":"HairHairGirlStPatricks"},{"id":"HairHairGirlWitch"},{"id":"HairHairGirlWitchB"},{"id":"HairHairGirlXmas"},{"id":"HairHairGirlXmasGreen"},{"id":"GlassesFrankensteinScrew"},{"id":"GlassesGlassesStarGlow"},{"id":"BackpackBackpackButterfly"},{"id":"BackpackBackpackButterflyB"},{"id":"BackpackBackpackDino"},{"id":"BackpackBackpackEaster"},{"id":"BackpackBackpackGaita"},{"id":"BackpackBackpackSteampunk"},{"id":"BackpackBackpackTurtle"},{"id":"EmoteEmoteBaile3"},{"id":"FarmhandWorkerCamo"},{"id":"FarmhandWorkerHawaii"},{"id":"FarmhandWorkerMonoEaster"},{"id":"FarmhandWorkerMonoEasterB"},{"id":"PetBat"},{"id":"PetBirdOwlB"},{"id":"PetBirdOwlC"},{"id":"PetPterodactyl"},{"id":"PetPterodactylB"},{"id":"PetPterodactylC"},{"id":"PetSeahorseBlue"},{"id":"PetSeahorsePink"},{"id":"PetSeahorseYellow"},{"id":"TagCandyCane"},{"id":"TagCloverLeaf"},{"id":"TagFlower"},{"id":"TagHeart"},{"id":"TagHorseshoe"},{"id":"TagPumpkin"}]}</value>
+  </data>
+</root>
